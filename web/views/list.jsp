@@ -21,7 +21,8 @@
     if (employees != null && !employees.isEmpty()) {
         out.println("<ui>");
         for (Employee s : employees) {
-            out.println("<li>" + s.getFio() + " " + s.getPosition() + " " + s.getSex() + " " + s.getAge() + " " + s.getWorkTime() + "</li>");
+            out.println("<li>" + s.getId() + " " + s.getFio() + " " + s.getPosition() + " " + s.getSex() + " " + s.getAge() + " "
+                    + s.getWorkTime() + " " + s.getPosition() + "</li>");
         }
         out.println("</ui>");
     } else out.println("<p>There are no employees yet!</p>");

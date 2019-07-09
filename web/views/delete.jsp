@@ -14,5 +14,14 @@
 <div>
     <h1>Delete employee</h1>
 </div>
+<form method="post">
+    <label>ID
+    <input type="number" name="id">
+    </label>
+    <button type="submit">Удалить</button>
+</form>
+<div>
+    <button onclick="location.href='/DataBaseEmployee_war_exploded'">Back to main</button>
+</div>
 </body>
 </html>

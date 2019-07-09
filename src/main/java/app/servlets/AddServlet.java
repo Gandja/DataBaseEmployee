@@ -19,7 +19,7 @@ public class AddServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String fio = req.getParameter("fio");
+        /*String fio = req.getParameter("fio");
         Integer age = Integer.parseInt(req.getParameter("age"));
         String sex = req.getParameter("sex");
         Double workTime = Double.parseDouble(req.getParameter("workTime"));
@@ -29,6 +29,6 @@ public class AddServlet extends HttpServlet {
         model.add(employee);
 
         req.setAttribute("addEmp",employee);
-        doGet(req,resp);
+        doGet(req,resp);*/
     }
 }
